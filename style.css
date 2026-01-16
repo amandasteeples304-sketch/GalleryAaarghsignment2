@@ -1,0 +1,14 @@
+.thumbnails {
+  height: 20vh;
+  min-width: 10wh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  height: 20vh;
+  width: 40wh;
+  background-color: green;
+  color: white;
+}
