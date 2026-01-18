@@ -9,8 +9,17 @@
   </head>
   <body>
     <div id="thumbnails" class="thumbnails" tabindex="0"></div>
-    <div id="bigDisplay" tabindex="0"></div>
-    <button id="next" aria-label="Go to the image"></button>
-    <button id="prev" aria-label="Go to the previous image"></button>
+    <button
+      id="previousImage"
+      onclick="previous()"
+      aria-label="Go to the previous image"
+    >
+      <
+    </button>
+    <button id="nextImage" onclick="next()" aria-label="Go to the next image">
+      >
+    </button>
+    <div id="announcer" aria-live="polite" class="visually-hidden"></div>
+    <div id="bigDisplay" tabindex="0" imgsrc="images"></div>
   </body>
 </html>
